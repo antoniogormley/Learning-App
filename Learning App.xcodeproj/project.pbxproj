@@ -12,6 +12,9 @@
 		709021B6268B5D1900DB2DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709021B5268B5D1900DB2DBA /* Assets.xcassets */; };
 		709021B9268B5D1900DB2DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709021B8268B5D1900DB2DBA /* Preview Assets.xcassets */; };
 		709021C6268B620200DB2DBA /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021C5268B620200DB2DBA /* ContentModel.swift */; };
+		709021C9268B668600DB2DBA /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 709021C7268B668600DB2DBA /* style.html */; };
+		709021CA268B668600DB2DBA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 709021C8268B668600DB2DBA /* data.json */; };
+		709021CC268B68D600DB2DBA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021CB268B68D600DB2DBA /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		709021B8268B5D1900DB2DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		709021BA268B5D1900DB2DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		709021C5268B620200DB2DBA /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		709021C7268B668600DB2DBA /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
+		709021C8268B668600DB2DBA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		709021CB268B68D600DB2DBA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		709021C2268B614100DB2DBA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				709021CB268B68D600DB2DBA /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +108,8 @@
 		709021C3268B615000DB2DBA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				709021C8268B668600DB2DBA /* data.json */,
+				709021C7268B668600DB2DBA /* style.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,8 +178,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709021C9268B668600DB2DBA /* style.html in Resources */,
 				709021B9268B5D1900DB2DBA /* Preview Assets.xcassets in Resources */,
 				709021B6268B5D1900DB2DBA /* Assets.xcassets in Resources */,
+				709021CA268B668600DB2DBA /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +195,7 @@
 				709021B4268B5D1600DB2DBA /* HomeView.swift in Sources */,
 				709021B2268B5D1600DB2DBA /* Learning_App.swift in Sources */,
 				709021C6268B620200DB2DBA /* ContentModel.swift in Sources */,
+				709021CC268B68D600DB2DBA /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
