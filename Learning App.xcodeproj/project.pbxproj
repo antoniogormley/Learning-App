@@ -15,6 +15,9 @@
 		709021C9268B668600DB2DBA /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 709021C7268B668600DB2DBA /* style.html */; };
 		709021CA268B668600DB2DBA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 709021C8268B668600DB2DBA /* data.json */; };
 		709021CC268B68D600DB2DBA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021CB268B68D600DB2DBA /* Models.swift */; };
+		709021CE268BBF6500DB2DBA /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021CD268BBF6500DB2DBA /* HomeViewRow.swift */; };
+		709021D0268BED2F00DB2DBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021CF268BED2F00DB2DBA /* ContentView.swift */; };
+		709021D2268BF6CD00DB2DBA /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021D1268BF6CD00DB2DBA /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		709021C7268B668600DB2DBA /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		709021C8268B668600DB2DBA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		709021CB268B68D600DB2DBA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		709021CD268BBF6500DB2DBA /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		709021CF268BED2F00DB2DBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		709021D1268BF6CD00DB2DBA /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				709021B3268B5D1600DB2DBA /* HomeView.swift */,
+				709021CD268BBF6500DB2DBA /* HomeViewRow.swift */,
+				709021CF268BED2F00DB2DBA /* ContentView.swift */,
+				709021D1268BF6CD00DB2DBA /* ContentViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,7 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				709021B4268B5D1600DB2DBA /* HomeView.swift in Sources */,
+				709021CE268BBF6500DB2DBA /* HomeViewRow.swift in Sources */,
+				709021D0268BED2F00DB2DBA /* ContentView.swift in Sources */,
 				709021B2268B5D1600DB2DBA /* Learning_App.swift in Sources */,
+				709021D2268BF6CD00DB2DBA /* ContentViewRow.swift in Sources */,
 				709021C6268B620200DB2DBA /* ContentModel.swift in Sources */,
 				709021CC268B68D600DB2DBA /* Models.swift in Sources */,
 			);
