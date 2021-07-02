@@ -64,7 +64,9 @@ struct HomeViewRow: View {
                 
             }
             .padding(.horizontal, 20)
-        }    }
+        }
+        
+    }
 }
 
 struct HomeViewRow_Previews: PreviewProvider {
