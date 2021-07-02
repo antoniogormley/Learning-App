@@ -19,14 +19,19 @@ class ContentModel: ObservableObject{
     @Published var currentLesson: Lesson?
     var currentLessonIndex = 0
     
+    //current question
+    @Published var currentQuestion: Question?
+    var currentQuestionIndex = 0
+    
     //current lesson explaination
-    @Published var lessonDescription = NSAttributedString()
+    @Published var codeText = NSAttributedString()
     
     
     var styleData: Data?
     
     //current selected content and test
     @Published var currentContentSelected:Int?
+    @Published var currentTestSelected:Int?
 
     init() {
         
@@ -85,7 +90,7 @@ class ContentModel: ObservableObject{
         }
         
         currentLesson = currentModule!.content.lessons[currentLessonIndex]
-        lessonDescription = addStyling(htmlString: currentLesson!.explanation)
+        codeText = addStyling(htmlString: currentLesson!.explanation)
     }
     
     func  nextLesson() {
@@ -95,7 +100,7 @@ class ContentModel: ObservableObject{
         if currentLessonIndex < currentModule!.content.lessons.count{
             //set current lesson properity
             currentLesson = currentModule!.content.lessons[currentLessonIndex]
-            lessonDescription = addStyling(htmlString: currentLesson!.explanation)
+            codeText = addStyling(htmlString: currentLesson!.explanation)
 
             
         }else{
@@ -112,6 +117,18 @@ class ContentModel: ObservableObject{
             return true
         }else {
             return  false
+        }
+    }
+    func beginTest(moduleId:Int) {
+        //set module
+        beginModule(moduleid: moduleId)
+        //set question
+        currentQuestionIndex = 0
+        //if there are questions, set the current question to the first one
+        if currentModule?.test.questions.count ?? 0 > 0 {
+            currentQuestion = currentModule!.test.questions[currentQuestionIndex]
+            //set question content
+            codeText = addStyling(htmlString: currentQuestion!.content)
         }
     }
     private func addStyling(htmlString: String) -> NSAttributedString {

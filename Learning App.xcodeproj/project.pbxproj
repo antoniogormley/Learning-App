@@ -23,6 +23,7 @@
 		709021D9268CFB5900DB2DBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021D8268CFB5900DB2DBA /* Constants.swift */; };
 		709021DB268E8A8000DB2DBA /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021DA268E8A8000DB2DBA /* CodeTextView.swift */; };
 		709021DD268F2BF400DB2DBA /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021DC268F2BF400DB2DBA /* RectangleCard.swift */; };
+		709021DF268F2DEA00DB2DBA /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709021DE268F2DEA00DB2DBA /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		709021D8268CFB5900DB2DBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		709021DA268E8A8000DB2DBA /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		709021DC268F2BF400DB2DBA /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		709021DE268F2DEA00DB2DBA /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				709021CF268BED2F00DB2DBA /* ContentView.swift */,
 				709021D1268BF6CD00DB2DBA /* ContentViewRow.swift */,
 				709021D3268CA7C300DB2DBA /* ContentDetailView.swift */,
+				709021DE268F2DEA00DB2DBA /* TestView.swift */,
 				709021DA268E8A8000DB2DBA /* CodeTextView.swift */,
 				709021DC268F2BF400DB2DBA /* RectangleCard.swift */,
 			);
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709021DF268F2DEA00DB2DBA /* TestView.swift in Sources */,
 				709021B4268B5D1600DB2DBA /* HomeView.swift in Sources */,
 				709021CE268BBF6500DB2DBA /* HomeViewRow.swift in Sources */,
 				709021D0268BED2F00DB2DBA /* ContentView.swift in Sources */,
