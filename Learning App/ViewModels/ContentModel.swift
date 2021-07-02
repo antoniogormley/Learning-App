@@ -24,6 +24,9 @@ class ContentModel: ObservableObject{
     
     
     var styleData: Data?
+    
+    //current selected content and test
+    @Published var currentContentSelected:Int?
 
     init() {
         
